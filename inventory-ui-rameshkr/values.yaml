@@ -2,7 +2,7 @@ global:
   ingressSubdomain: garage-devtools-sfo-rhos.us-east.containers.appdomain.cloud
   tlsSecretName: garage-devtools-sfo-rhos
 
-<app-chart-name>:
+template-node-react-rameshkr:
   replicaCount: 3
   
   ingress:

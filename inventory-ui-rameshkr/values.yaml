@@ -1,11 +1,11 @@
 global:
-  ingressSubdomain: sfo-pair-five-cluster.us-east.containers.appdomain.cloud
-  tlsSecretName: sfo-pair-five-cluster
+  ingressSubdomain: garage-devtools-sfo-rhos.us-east.containers.appdomain.cloud
+  tlsSecretName: garage-devtools-sfo-rhos
 
 <app-chart-name>:
   replicaCount: 3
   
   ingress:
     enabled: true
-    tlsSecretName: sfo-pair-five-cluster
+    tlsSecretName: garage-devtools-sfo-rhos
 
